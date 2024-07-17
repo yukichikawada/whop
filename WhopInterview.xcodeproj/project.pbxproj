@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89516DF22C48464B0068A167 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89516DF12C48464B0068A167 /* ListItemView.swift */; };
+		89516DF42C4846900068A167 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89516DF32C4846900068A167 /* ListItemViewModel.swift */; };
 		896B13702C482F1F009611A1 /* WhopInterviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B136F2C482F1F009611A1 /* WhopInterviewApp.swift */; };
 		896B13722C482F1F009611A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B13712C482F1F009611A1 /* ContentView.swift */; };
 		896B13742C482F20009611A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896B13732C482F20009611A1 /* Assets.xcassets */; };
 		896B13772C482F20009611A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896B13762C482F20009611A1 /* Preview Assets.xcassets */; };
+		896B13862C48332C009611A1 /* InfinitelyScrollableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B13852C48332C009611A1 /* InfinitelyScrollableListView.swift */; };
+		896B13882C48333B009611A1 /* InfinitelyScrollableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B13872C48333B009611A1 /* InfinitelyScrollableListViewModel.swift */; };
+		896B138C2C4835AC009611A1 /* ExpandableFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B138B2C4835AC009611A1 /* ExpandableFolder.swift */; };
+		896B138E2C4835BB009611A1 /* WhopWebViewLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B138D2C4835BB009611A1 /* WhopWebViewLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89516DF12C48464B0068A167 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		89516DF32C4846900068A167 /* ListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
 		896B136C2C482F1F009611A1 /* WhopInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhopInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896B136F2C482F1F009611A1 /* WhopInterviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhopInterviewApp.swift; sourceTree = "<group>"; };
 		896B13712C482F1F009611A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		896B13732C482F20009611A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896B13762C482F20009611A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		896B13852C48332C009611A1 /* InfinitelyScrollableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitelyScrollableListView.swift; sourceTree = "<group>"; };
+		896B13872C48333B009611A1 /* InfinitelyScrollableListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitelyScrollableListViewModel.swift; sourceTree = "<group>"; };
+		896B138B2C4835AC009611A1 /* ExpandableFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableFolder.swift; sourceTree = "<group>"; };
+		896B138D2C4835BB009611A1 /* WhopWebViewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhopWebViewLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,9 @@
 		896B136E2C482F1F009611A1 /* WhopInterview */ = {
 			isa = PBXGroup;
 			children = (
+				896B13842C48331A009611A1 /* ViewModels */,
+				896B13832C483313009611A1 /* Views */,
+				896B13822C48330C009611A1 /* Models */,
 				896B136F2C482F1F009611A1 /* WhopInterviewApp.swift */,
 				896B13712C482F1F009611A1 /* ContentView.swift */,
 				896B13732C482F20009611A1 /* Assets.xcassets */,
@@ -65,6 +80,33 @@
 				896B13762C482F20009611A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		896B13822C48330C009611A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				896B138B2C4835AC009611A1 /* ExpandableFolder.swift */,
+				896B138D2C4835BB009611A1 /* WhopWebViewLink.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		896B13832C483313009611A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				896B13852C48332C009611A1 /* InfinitelyScrollableListView.swift */,
+				89516DF12C48464B0068A167 /* ListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		896B13842C48331A009611A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				896B13872C48333B009611A1 /* InfinitelyScrollableListViewModel.swift */,
+				89516DF32C4846900068A167 /* ListItemViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896B13882C48333B009611A1 /* InfinitelyScrollableListViewModel.swift in Sources */,
+				89516DF42C4846900068A167 /* ListItemViewModel.swift in Sources */,
+				89516DF22C48464B0068A167 /* ListItemView.swift in Sources */,
 				896B13722C482F1F009611A1 /* ContentView.swift in Sources */,
+				896B138C2C4835AC009611A1 /* ExpandableFolder.swift in Sources */,
 				896B13702C482F1F009611A1 /* WhopInterviewApp.swift in Sources */,
+				896B13862C48332C009611A1 /* InfinitelyScrollableListView.swift in Sources */,
+				896B138E2C4835BB009611A1 /* WhopWebViewLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhopInterview/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BAMVTHBKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhopInterview/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BAMVTHBKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
